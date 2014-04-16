@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Space War</title>
+	<link rel="stylesheet" href="magic.css">
+    <style>
+		body {
+			text-align:center;
+			background:#b8b8b8;
+		}
+    	#canvas{
+    		margin:0 auto;
+    		padding:0;
+			margin-top:50px;
+    	}
+		#page {
+		position: relative;
+		z-index: 99;
+		-webkit-backface-visibility: hidden;
+		}
+    </style>
+		<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-19354396-1']);
+	  _gaq.push(['_trackPageview']);
+	      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	  
+	</script>
+  </head>
+  <body>
+	
+	<!-- <iframe id="tubular-player" style="position: absolute; width: 1349px; height: 759px; left: 0px; top: -27px;" frameborder="0" allowfullscreen="1" title="YouTube video player" width="1349" height="759" src="http://www.youtube.com/embed/6j73t2GjcC4?html5=1&amp;controls=0&amp;showinfo=0&amp;modestbranding=1&amp;wmode=transparent&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.minimamente.com"></iframe> -->
+<!-- 	<video  id = "video" width="320" height="240" style="position: absolute; width: 1349px; height: 759px; left: 0px; top: -27px;" autoplay loop muted>
+	  <source src="movie.mp4" type="video/mp4">
+	  <source src="movie.ogg" type="video/ogg">
+	  Your browser does not support the video tag.
+	</video> -->
+	<div id = "page">
+	<canvas id="canvas" width="600" height="480"></canvas>
+	<aside></aside>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="tubular.js"></script>
+	<script src="asset.js"  type="text/javascript"></script>
+	<script src="animate.js"  type="text/javascript"></script>
+	<script src="colony.js"  type="text/javascript"></script>
+	<script src="particle.js" type="text/javascript"></script>
+	<script src="country.js" type="text/javascript"></script>
+	<script src="scene.js" type="text/javascript"></script>
+	<script src="game.js" type="text/javascript"></script>
+	<script src="main.js"  type="text/javascript"></script>
+  </body>
+</html>
